@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		233E2C640A83C768005A62DF /* Build & Copy */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 233E2D890A83C7AC005A62DF /* Build configuration list for PBXAggregateTarget "Build & Copy" */;
+			buildPhases = (
+				233E2C690A83C783005A62DF /* ShellScript */,
+			);
+			dependencies = (
+				233E2C660A83C76D005A62DF /* PBXTargetDependency */,
+			);
+			name = "Build & Copy";
+			productName = "Build & Install";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		16BA95420A7EB2EB001E4983 /* v002DitherPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA95410A7EB2EB001E4983 /* v002DitherPlugIn.m */; };
+		16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BA96300A7EB9AC001E4983 /* Quartz.framework */; };
+		1B5879761550AA70006A9933 /* v002FBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5879701550AA70006A9933 /* v002FBO.m */; };
+		1B5879771550AA70006A9933 /* v002MasterPluginInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5879721550AA70006A9933 /* v002MasterPluginInterface.m */; };
+		1B5879781550AA70006A9933 /* v002Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5879741550AA70006A9933 /* v002Shader.m */; };
+		1BD6718D135E63B50066E8C0 /* v002.dither8.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD67188135E624C0066E8C0 /* v002.dither8.frag */; };
+		1BD6718E135E63B50066E8C0 /* v002.dither8.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD6718A135E63980066E8C0 /* v002.dither8.vert */; };
+		1BD671EE135E64530066E8C0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD671ED135E64530066E8C0 /* OpenGL.framework */; };
+		1BD67384135EA42B0066E8C0 /* v002.dither2.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD6737E135EA4200066E8C0 /* v002.dither2.frag */; };
+		1BD67385135EA42B0066E8C0 /* v002.dither2.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD6737F135EA4200066E8C0 /* v002.dither2.vert */; };
+		1BD67386135EA42B0066E8C0 /* v002.dither4.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD67380135EA4200066E8C0 /* v002.dither4.frag */; };
+		1BD67387135EA42B0066E8C0 /* v002.dither4.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD67381135EA4200066E8C0 /* v002.dither4.vert */; };
+		1BD67405135EB18B0066E8C0 /* v002.crosshatch.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD673EF135EAFBA0066E8C0 /* v002.crosshatch.frag */; };
+		1BD67406135EB18B0066E8C0 /* v002.crosshatch.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD673F0135EAFBA0066E8C0 /* v002.crosshatch.vert */; };
+		1BD67410135EB1BE0066E8C0 /* v002CrossHatchPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD673E5135EAC1E0066E8C0 /* v002CrossHatchPlugIn.m */; };
+		1BD674B6135F81FD0066E8C0 /* v002HalfTonePlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD674B5135F81FD0066E8C0 /* v002HalfTonePlugIn.m */; };
+		1BD674C9135F82EF0066E8C0 /* v002.halftone.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD674C7135F82ED0066E8C0 /* v002.halftone.frag */; };
+		1BD674CA135F82EF0066E8C0 /* v002.halftone.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD674C8135F82ED0066E8C0 /* v002.halftone.vert */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233E2C650A83C76D005A62DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
+			remoteInfo = "v002 Half Tones";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BD67191135E63E70066E8C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				1BD674C9135F82EF0066E8C0 /* v002.halftone.frag in CopyFiles */,
+				1BD674CA135F82EF0066E8C0 /* v002.halftone.vert in CopyFiles */,
+				1BD67405135EB18B0066E8C0 /* v002.crosshatch.frag in CopyFiles */,
+				1BD67406135EB18B0066E8C0 /* v002.crosshatch.vert in CopyFiles */,
+				1BD67384135EA42B0066E8C0 /* v002.dither2.frag in CopyFiles */,
+				1BD67385135EA42B0066E8C0 /* v002.dither2.vert in CopyFiles */,
+				1BD67386135EA42B0066E8C0 /* v002.dither4.frag in CopyFiles */,
+				1BD67387135EA42B0066E8C0 /* v002.dither4.vert in CopyFiles */,
+				1BD6718D135E63B50066E8C0 /* v002.dither8.frag in CopyFiles */,
+				1BD6718E135E63B50066E8C0 /* v002.dither8.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		16AA5C440A7EEE7300888E31 /* v002 Half Tones_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "v002 Half Tones_Prefix.pch"; sourceTree = "<group>"; };
+		16BA95400A7EB2EB001E4983 /* v002DitherPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = v002DitherPlugIn.h; sourceTree = "<group>"; };
+		16BA95410A7EB2EB001E4983 /* v002DitherPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = v002DitherPlugIn.m; sourceTree = "<group>"; };
+		16BA96300A7EB9AC001E4983 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		1B58796E1550AA70006A9933 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1B58796F1550AA70006A9933 /* v002FBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002FBO.h; sourceTree = "<group>"; };
+		1B5879701550AA70006A9933 /* v002FBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002FBO.m; sourceTree = "<group>"; };
+		1B5879711550AA70006A9933 /* v002MasterPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002MasterPluginInterface.h; sourceTree = "<group>"; };
+		1B5879721550AA70006A9933 /* v002MasterPluginInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002MasterPluginInterface.m; sourceTree = "<group>"; };
+		1B5879731550AA70006A9933 /* v002Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002Shader.h; sourceTree = "<group>"; };
+		1B5879741550AA70006A9933 /* v002Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002Shader.m; sourceTree = "<group>"; };
+		1B5879751550AA70006A9933 /* v002UniqueClassNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002UniqueClassNames.h; sourceTree = "<group>"; };
+		1BD67188135E624C0066E8C0 /* v002.dither8.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.dither8.frag; sourceTree = "<group>"; };
+		1BD6718A135E63980066E8C0 /* v002.dither8.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.dither8.vert; sourceTree = "<group>"; };
+		1BD671ED135E64530066E8C0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		1BD6737E135EA4200066E8C0 /* v002.dither2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.dither2.frag; sourceTree = "<group>"; };
+		1BD6737F135EA4200066E8C0 /* v002.dither2.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.dither2.vert; sourceTree = "<group>"; };
+		1BD67380135EA4200066E8C0 /* v002.dither4.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.dither4.frag; sourceTree = "<group>"; };
+		1BD67381135EA4200066E8C0 /* v002.dither4.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.dither4.vert; sourceTree = "<group>"; };
+		1BD673E4135EAC1E0066E8C0 /* v002CrossHatchPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002CrossHatchPlugIn.h; sourceTree = "<group>"; };
+		1BD673E5135EAC1E0066E8C0 /* v002CrossHatchPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002CrossHatchPlugIn.m; sourceTree = "<group>"; };
+		1BD673EF135EAFBA0066E8C0 /* v002.crosshatch.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.crosshatch.frag; sourceTree = "<group>"; };
+		1BD673F0135EAFBA0066E8C0 /* v002.crosshatch.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.crosshatch.vert; sourceTree = "<group>"; };
+		1BD674B4135F81FD0066E8C0 /* v002HalfTonePlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002HalfTonePlugIn.h; sourceTree = "<group>"; };
+		1BD674B5135F81FD0066E8C0 /* v002HalfTonePlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002HalfTonePlugIn.m; sourceTree = "<group>"; };
+		1BD674C7135F82ED0066E8C0 /* v002.halftone.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.halftone.frag; sourceTree = "<group>"; };
+		1BD674C8135F82ED0066E8C0 /* v002.halftone.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.halftone.vert; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* v002 Half Tones.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "v002 Half Tones.plugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */,
+				1BD671EE135E64530066E8C0 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Quartz Composer Plug In */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				1BD671ED135E64530066E8C0 /* OpenGL.framework */,
+			);
+			name = "Quartz Composer Plug In";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16BA96300A7EB9AC001E4983 /* Quartz.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				1BD674C7135F82ED0066E8C0 /* v002.halftone.frag */,
+				1BD674C8135F82ED0066E8C0 /* v002.halftone.vert */,
+				1BD673EF135EAFBA0066E8C0 /* v002.crosshatch.frag */,
+				1BD673F0135EAFBA0066E8C0 /* v002.crosshatch.vert */,
+				1BD6737E135EA4200066E8C0 /* v002.dither2.frag */,
+				1BD6737F135EA4200066E8C0 /* v002.dither2.vert */,
+				1BD67380135EA4200066E8C0 /* v002.dither4.frag */,
+				1BD67381135EA4200066E8C0 /* v002.dither4.vert */,
+				1BD67188135E624C0066E8C0 /* v002.dither8.frag */,
+				1BD6718A135E63980066E8C0 /* v002.dither8.vert */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B58796D1550AA70006A9933 /* v002 Utilities */,
+				16BA95400A7EB2EB001E4983 /* v002DitherPlugIn.h */,
+				16BA95410A7EB2EB001E4983 /* v002DitherPlugIn.m */,
+				1BD673E4135EAC1E0066E8C0 /* v002CrossHatchPlugIn.h */,
+				1BD673E5135EAC1E0066E8C0 /* v002CrossHatchPlugIn.m */,
+				1BD674B4135F81FD0066E8C0 /* v002HalfTonePlugIn.h */,
+				1BD674B5135F81FD0066E8C0 /* v002HalfTonePlugIn.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* v002 Half Tones.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B58796D1550AA70006A9933 /* v002 Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1B58796E1550AA70006A9933 /* README.md */,
+				1B58796F1550AA70006A9933 /* v002FBO.h */,
+				1B5879701550AA70006A9933 /* v002FBO.m */,
+				1B5879711550AA70006A9933 /* v002MasterPluginInterface.h */,
+				1B5879721550AA70006A9933 /* v002MasterPluginInterface.m */,
+				1B5879731550AA70006A9933 /* v002Shader.h */,
+				1B5879741550AA70006A9933 /* v002Shader.m */,
+				1B5879751550AA70006A9933 /* v002UniqueClassNames.h */,
+			);
+			path = "v002 Utilities";
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				16AA5C440A7EEE7300888E31 /* v002 Half Tones_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* v002 Half Tones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "v002 Half Tones" */;
+			buildPhases = (
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				1BD67191135E63E70066E8C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "v002 Half Tones";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Quartz Composer Plug In";
+			productReference = 8D5B49B6048680CD000E48DA /* v002 Half Tones.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "v002 Half Tones" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Quartz Composer Plug In */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* v002 Half Tones */,
+				233E2C640A83C768005A62DF /* Build & Copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233E2C690A83C783005A62DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/v002 Half Tones.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/v002 Half Tones.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD67410135EB1BE0066E8C0 /* v002CrossHatchPlugIn.m in Sources */,
+				16BA95420A7EB2EB001E4983 /* v002DitherPlugIn.m in Sources */,
+				1BD674B6135F81FD0066E8C0 /* v002HalfTonePlugIn.m in Sources */,
+				1B5879761550AA70006A9933 /* v002FBO.m in Sources */,
+				1B5879771550AA70006A9933 /* v002MasterPluginInterface.m in Sources */,
+				1B5879781550AA70006A9933 /* v002Shader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233E2C660A83C76D005A62DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5B49AC048680CD000E48DA /* v002 Half Tones */;
+			targetProxy = 233E2C650A83C76D005A62DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "v002 Half Tones_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "V002_UNIQUE_CLASS_NAME_PREFIX=v002HalfTones";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "v002 Half Tones";
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "v002 Half Tones_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "V002_UNIQUE_CLASS_NAME_PREFIX=v002HalfTones";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "v002 Half Tones";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		233E2D8A0A83C7AC005A62DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Build & Install";
+			};
+			name = Debug;
+		};
+		233E2D8B0A83C7AC005A62DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Build & Install";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "v002 Half Tones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "v002 Half Tones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233E2D890A83C7AC005A62DF /* Build configuration list for PBXAggregateTarget "Build & Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233E2D8A0A83C7AC005A62DF /* Debug */,
+				233E2D8B0A83C7AC005A62DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
