@@ -89,6 +89,7 @@
 		1B5879731550AA70006A9933 /* v002Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002Shader.h; sourceTree = "<group>"; };
 		1B5879741550AA70006A9933 /* v002Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002Shader.m; sourceTree = "<group>"; };
 		1B5879751550AA70006A9933 /* v002UniqueClassNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002UniqueClassNames.h; sourceTree = "<group>"; };
+		1B58797C1550AC5F006A9933 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1BD67188135E624C0066E8C0 /* v002.dither8.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.dither8.frag; sourceTree = "<group>"; };
 		1BD6718A135E63980066E8C0 /* v002.dither8.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = v002.dither8.vert; sourceTree = "<group>"; };
 		1BD671ED135E64530066E8C0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
@@ -165,6 +166,7 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1B58797C1550AC5F006A9933 /* README.md */,
 				1B58796D1550AA70006A9933 /* v002 Utilities */,
 				16BA95400A7EB2EB001E4983 /* v002DitherPlugIn.h */,
 				16BA95410A7EB2EB001E4983 /* v002DitherPlugIn.m */,
