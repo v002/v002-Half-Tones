@@ -62,7 +62,9 @@ const GLint d2[4] =
 
 + (NSDictionary*) attributes
 {
-	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey, [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey, nil];
+	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey,
+            [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey,
+            kQCPlugIn_Category, QCPlugInAttributeCategoriesKey, nil];
 }
 
 + (NSDictionary*) attributesForPropertyPortWithKey:(NSString*)key
