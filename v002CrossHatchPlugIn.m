@@ -14,16 +14,13 @@
 #define	kQCPlugIn_Name				@"v002 Cross Hatch"
 #define	kQCPlugIn_Description		@"v002 Cross Hatch"
 
-
 #pragma mark -
 #pragma mark Static Functions
-
 
 static void _TextureReleaseCallback(CGLContextObj cgl_ctx, GLuint name, void* info)
 {
 	glDeleteTextures(1, &name);
 }
-
 
 @implementation v002CrossHatchPlugIn
 
@@ -41,7 +38,7 @@ static void _TextureReleaseCallback(CGLContextObj cgl_ctx, GLuint name, void* in
 {
 	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey,
             [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey,
-            kQCPlugIn_Category, QCPlugInAttributeCategoriesKey, nil];
+            kQCPlugIn_Category, @"categories", nil];
 }
 
 + (NSDictionary*) attributesForPropertyPortWithKey:(NSString*)key
@@ -64,7 +61,6 @@ static void _TextureReleaseCallback(CGLContextObj cgl_ctx, GLuint name, void* in
 				[NSNumber numberWithInt:100], QCPortAttributeMaximumValueKey,
 				[NSNumber numberWithInt:1], QCPortAttributeMinimumValueKey,
 				nil];
-    
     
     if([key isEqualToString:@"inputInvert"])
     {

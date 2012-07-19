@@ -14,10 +14,8 @@
 #define	kQCPlugIn_Name				@"v002 Dither"
 #define	kQCPlugIn_Description		@"v002 Dither"
 
-
 #pragma mark -
 #pragma mark Static Functions
-
 
 static void _TextureReleaseCallback(CGLContextObj cgl_ctx, GLuint name, void* info)
 {
@@ -64,7 +62,7 @@ const GLint d2[4] =
 {
 	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey,
             [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey,
-            kQCPlugIn_Category, QCPlugInAttributeCategoriesKey, nil];
+            kQCPlugIn_Category, @"categories", nil];
 }
 
 + (NSDictionary*) attributesForPropertyPortWithKey:(NSString*)key

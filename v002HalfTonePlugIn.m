@@ -14,16 +14,13 @@
 #define	kQCPlugIn_Name				@"v002 Half Tone"
 #define	kQCPlugIn_Description		@"v002 Half Tone"
 
-
 #pragma mark -
 #pragma mark Static Functions
-
 
 static void _TextureReleaseCallback(CGLContextObj cgl_ctx, GLuint name, void* info)
 {
 	glDeleteTextures(1, &name);
 }
-
 
 @implementation v002HalfTonePlugIn
 
@@ -49,7 +46,7 @@ static void _TextureReleaseCallback(CGLContextObj cgl_ctx, GLuint name, void* in
 {
 	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey,
             [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey,
-            kQCPlugIn_Category, QCPlugInAttributeCategoriesKey, nil];
+            kQCPlugIn_Category, @"categories", nil];
 }
 
 + (NSDictionary*) attributesForPropertyPortWithKey:(NSString*)key
